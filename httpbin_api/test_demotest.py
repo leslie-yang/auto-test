@@ -8,7 +8,7 @@ class Test_httpbin():
 
     def test_get_ip(self):
         BASE_URL="http://httpbin.org/"
-        LOCAL_IP="120.34.205.175"
+        LOCAL_IP="175.153.168.0"
         IP_URL = "/ip"
         url = BASE_URL + IP_URL
         r = requests.get(url)
